@@ -1,13 +1,21 @@
 
 h1 {
 	font-family: 'Norican', cursive;
+	font-size: 90px;
 }
 
 .btn-md {
 	border: 3px solid black;
 	border-radius: 5px;
-    background-color: green;
+    background-color: purple;
     font-size: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+#refresh {
+	font-family: 'Norican', cursive;
+	font-size: 30px;
 }
  /*//need to change the look of the disabled="disabled" state of the 
  buttons in CSS and JS - it will actually represent the last move*/
