@@ -1,0 +1,23 @@
+
+h1 {
+	font-family: 'Norican', cursive;
+}
+
+.btn-md {
+	border: 3px solid black;
+	border-radius: 5px;
+    background-color: green;
+    font-size: 50px;
+}
+ /*//need to change the look of the disabled="disabled" state of the 
+ buttons in CSS and JS - it will actually represent the last move*/
+
+.col-centered {
+	text-align: center;
+	display: block;
+};
+
+
+div {
+	border: 2px solid #f0f;
+}
