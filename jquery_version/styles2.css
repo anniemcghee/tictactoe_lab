@@ -14,8 +14,13 @@ h1 {
 
 #refresh {
 	font-family: 'Norican', cursive;
-	font-size: 30px;
+	width:50px;
+	height:45px;
+	border: 1px solid black;
+	font-color: purple;
+	font-size: 1.8em;
 }
+
  /*//need to change the look of the disabled="disabled" state of the 
  buttons in CSS and JS - it will actually represent the last move*/
 
