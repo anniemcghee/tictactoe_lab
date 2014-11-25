@@ -3,7 +3,14 @@ $(function() {
 	var allButtons = $('.btn-md');
 	var turnCounter = 0;
 
+	// $(".page-header").on ("click", function() {
+	// 	$('.btn-md').fadeIn("slow", function(){
+	// 	});
+	// //animation complete
+	// });
+
 	allButtons.on('click', function () {
+
 		turnCounter++;
 		if (turnCounter %2 === 1) {
 			$(this).text("X"); 
@@ -13,7 +20,7 @@ $(function() {
 		}
 		$(this).attr('disabled', true);
 		checkForWinner();
-	});
+		});
 
 	clearBoardButton.on('click', function() {
 		$(allButtons).text('-');
@@ -28,6 +35,7 @@ $(function() {
 			if (allButtons[winningArray[i][0]].innerText !== "-" &&
 				allButtons[winningArray[i][1]].innerText === allButtons[winningArray[i][0]].innerText && 
 				allButtons[winningArray[i][2]].innerText === allButtons[winningArray[i][0]].innerText) {
+				$(allButtons).attr('disabled', true);
 				alert(allButtons[winningArray[i][1]].innerText + " has won!");
 			return allButtons[winningArray[i][1]].innerText;
 		};
