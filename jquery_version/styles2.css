@@ -10,6 +10,8 @@ h1 {
     font-size: 50px;
     width: 100px;
     height: 100px;
+    display: inline;
+    position: relative;
 }
 
 #refresh {
@@ -21,9 +23,13 @@ h1 {
 	font-size: 1.8em;
 }
 
- /*//need to change the look of the disabled="disabled" state of the 
+/*div .col-md-12 {
+  width: 100%;
+  float: none;
+}*/
+ /*//need to change the look of the disabled="disabled" state of the
  buttons in CSS and JS - it will actually represent the last move*/
-
+/*
 .col-centered {
 	text-align: center;
 	display: block;
@@ -33,3 +39,4 @@ h1 {
 div {
 	border: 2px solid #f0f;
 }
+*/
